@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Grocery</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navigation-grocery">
+        <h2 class="logo">Moqups</h2>
+        <ul class="navigation-items">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#our-package">Our Package</a></li>
+            <li><a href="#contact-us">Call Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- header/navbar -->
+    <header id="home">
+        <h1>Top Rated E-Groceries Shop in Indonesian</h1>
+        <p>Every Day with best ingredients</p>
+        <div class="big-box">
+            <div class="left-box">
+                <div id="slider">
+                    <div id="slides">
+                        <div class="slide">
+                            <img src="assets/gambar1.jpeg" alt="image1">
+                            <p>"Setiap hari beli sayur buah yang fresh disini"</p>
+                            <div class="our-product">
+                                <div>
+                                    <div class="circle" style="background-image: url(assets/profile.jpg);"></div>
+                                    <p>Shofira Izza</p><p style="font-size: 10px;">Mahasiswa, 19</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="assets/gambar2.jpeg" alt="image2">
+                            <p>"Sayuran disini selalu segar dan sehat"</p>
+                            <div class="our-product">
+                                <div>
+                                    <div class="circle" style="background-image: url(assets/profile.jpg);"></div>
+                                    <p>Shofira Izza</p><p style="font-size: 10px;">Mahasiswa, 19</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="assets/gambar3.jpg" alt="image3">
+                            <p>"Sayuran dan buah-buahan selalu yang terbaik"</p>
+                            <div class="our-product">
+                                <div>
+                                    <div class="circle" style="background-image: url(assets/profile.jpg);"></div>
+                                    <p>Shofira Izza</p><p style="font-size: 10px;">Mahasiswa, 19</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="assets/gambar4.jpg" alt="image4">
+                            <p>"Buah-Buahnya masih segar dan bagus-bagus"</p>
+                            <div class="our-product">
+                                <div>
+                                    <div class="circle" style="background-image: url(assets/profile.jpg);"></div>
+                                    <p>Shofira Izza</p><p style="font-size: 10px;">Mahasiswa, 19</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-information">
+                    <h4>Our Service Excellent</h4>
+                    <div class="our-benefits">
+                        <div>
+                            <div class="circle"></div>
+                            <p>Kenyamanan Belanja Online</p>
+                        </div>
+                        <div>
+                            <div class="circle"></div>
+                            <p>Ketersediaan Buah-buahan dan Sayuran Segar dan Lengkap</p>
+                        </div>
+                        <div>
+                            <div class="circle"></div>
+                            <p>Layanan Pengiriman yang Efisien</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-box">
+                <div class="form-box">
+                    <div class="inquiry-customer">
+                        <h3>Contact Us</h3>
+                        <p>Sales akan menghubungi Anda 1x24 jam setelah data kami terima.</p>
+                        <form action="" class="inquiry-form">
+                            <label for="name">Your Name:</label>
+                            <div>
+                                <input name="name" type="text" id="input-name" required
+                                    placeholder="First and last name">
+                                <p id="name-error" class="error-message"></p>
+                            </div>
+                            <label for="email">Email Address:</label>
+                            <div>
+                                <input name="email" type="email" id="input-email" required
+                                    placeholder="example@email.com">
+                                <p id="email-error" class="error-message"></p>
+                            </div>
+                            <label for="interest">What are you interested in?:</label>
+                            <div class="select">
+                                <select name="selects" id="selects">
+                                    <option value="" disabled selected>Select option</option>
+                                    <option value="1">Mudah digunakan</option>
+                                    <option value="2">Sayuran segar</option>
+                                </select>
+                            </div>
+                            <button id="submit">Send</button>
+                            <p id="error-name"></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- content -->
+    <main>
+        <section id="our-package">
+            <h1>Our Package</h1>
+            <div class="our-product">
+                <div>
+                    <div class="circle"></div>
+                    <p>Fresh Vegetable</p>
+                    <div class="product-info">
+                        <p>Sayuran segar langsung dari sumber pertanian terbaik</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="circle"></div>
+                    <p>Fresh Fruit</p>
+                    <div class="product-info">
+                        <p>Buah dengan kualitas terbaik dari lokal atau import dan harga yang menarik</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="circle"></div>
+                    <p>Instant Delivery</p>
+                    <div class="product-info">
+                        <p>Di kirim instan oleh kurir yang telah di training dengan SOP untuk menjaga kondisi belanja
+                            kamu</p>
+                    </div>
+                </div>
+            </div>
+            <div class="our-product">
+                <div>
+                    <div class="circle"></div>
+                    <p>Kitchen Ingredient</p>
+                    <div class="product-info">
+                        <p>Bumbu dapur lengkap untuk keperluan memasak kamu</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="circle"></div>
+                    <p>Kitchen Set</p>
+                    <div class="product-info">
+                        <p>Segala jenis alat masak untuk membantu kamu memasak</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="circle"></div>
+                    <p>Bundling Set</p>
+                    <div class="product-info">
+                        <p>Bingung masak apa? Sudah tersedia paket untuk kamu masak di dapur mu</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-us">
+            <h3>Dapatkan Kualitas Terbaik, Hidup Sehat Lebih Mudah dengan E-Groceries Buah-Buahan dan Sayuran
+                Berkualitas Tinggi!"</h3>
+            <p>Selamat datang di destinasi terbaik untuk pengalaman belanja e-groceries buah-buahan dan sayuran pilihan.
+                Dengan koleksi terlengkap dari sumber pertanian terbaik, kami hadir untuk menjadikan gaya hidup sehat lebih mudah di
+                tengah kesibukan Anda. Temukan keuntungan belanja mudah, pengiriman instan, dan kualitas terbaik hanya
+                di sini. Mari wujudkan hidup sehat dan berkualitas bersama layanan e-groceries kami. Belanja puas,
+                keluarga senang!</p>
+            <button id="submit">CALL TO ACTION</button>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer">
+            <h2>moqups</h2>
+            <div class="row">
+                <h5>Terms of Service</h5>
+                <h5>Privacy Policy</h5>
+            </div>
+            <div class="copy">
+                <div class="copyright">&copy; 2019 Moqups</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
+
+<!-- 
+    http://meyerweb.com/eric/tools/css/reset/v2.0 | 20110126
+    license: none (public domain)
+ -->
